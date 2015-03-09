@@ -1,0 +1,112 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+nav.navbar {
+    border-radius: 0;
+    background-color: #3f3f3f;
+    border-color: #3f3f3f;
+}
+
+nav.navbar .navbar-brand {
+    color: #fff;
+}
+
+nav.navbar .navbar-brand .logo {
+    width: 24px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: -4px;
+}
+
+.container h2 {
+    font-size: 3.25em;
+}
+
+#main {
+    margin-top: 60px;
+}
+
+.preview {
+    width: 75%;
+    display: block;
+    float: right;
+}
+
+#mc_embed_signup {
+    margin: 40px 0;
+}
+
+#mc_embed_signup input[type="email"] {
+    height: 51px;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.btn.btn-teal {
+    color: #fff;
+    background-color: #3ad3dd;
+    border: 1px solid #3ad3dd;
+    display:inline-block;
+    width:100px;
+    height: 51px;
+}
+
+.teal {
+    margin: 60px 0;
+    padding: 40px 0;
+    background-color: #3ad3dd;
+    color: #fff;
+}
+
+footer {
+    background-color: #3f3f3f;
+    margin-top: 60px;
+}
+
+footer a,
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 20px 0;
+}
+
+@media (max-width: 991px) and (max-device-width: 991px) {
+    .preview {
+        float: none;
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) and (max-device-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+
+    .container h2 {
+        font-size: 2em;
+    }
+
+    .preview {
+        width: 100%;
+    }
+
+    #main {
+        margin-top: 0;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .btn.btn-teal {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
