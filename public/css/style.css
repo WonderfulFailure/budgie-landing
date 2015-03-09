@@ -34,7 +34,8 @@ nav.navbar .navbar-brand .logo {
     margin-top: 60px;
 }
 
-#main h2 {
+#main h2,
+#additional-features h2 {
     margin-top: 0;
 }
 
