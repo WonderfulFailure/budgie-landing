@@ -34,6 +34,10 @@ nav.navbar .navbar-brand .logo {
     margin-top: 60px;
 }
 
+#main h2 {
+    margin-top: 0;
+}
+
 .preview {
     width: 75%;
     display: block;
