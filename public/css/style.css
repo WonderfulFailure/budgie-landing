@@ -1,6 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+.container {
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 nav.navbar {
@@ -21,7 +27,7 @@ nav.navbar .navbar-brand .logo {
 }
 
 .container h2 {
-    font-size: 3.25em;
+    font-size: 3em;
 }
 
 #main {
@@ -60,6 +66,10 @@ nav.navbar .navbar-brand .logo {
     color: #fff;
 }
 
+.teal h2 {
+    font-size: 2em;
+}
+
 footer {
     background-color: #3f3f3f;
     margin-top: 60px;
@@ -75,19 +85,21 @@ footer p {
     margin: 20px 0;
 }
 
-@media (max-width: 991px) and (max-device-width: 991px) {
+@media screen and (max-width: 991px) {
     .preview {
         float: none;
         width: 40%;
         display: block;
         margin: 0 auto;
     }
+
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
-@media (max-width: 767px) and (max-device-width: 767px) {
-    body {
-        font-size: 12px;
-    }
+@media screen and (max-width: 767px) {
 
     .container h2 {
         font-size: 2em;
