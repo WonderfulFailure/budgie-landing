@@ -1,7 +1,8 @@
 body {
-/*    font-family: 'Open Sans', sans-serif;
-*/    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
     line-height: 1.4em;
+    font-weight: 300;
 }
 
 .container {
@@ -37,6 +38,8 @@ nav.navbar .navbar-brand .logo {
 #main h2,
 #additional-features h2 {
     margin-top: 0;
+    font-weight: 400;
+    letter-spacing: -1px;
 }
 
 .preview {
@@ -62,6 +65,7 @@ nav.navbar .navbar-brand .logo {
     display:inline-block;
     width:100px;
     height: 51px;
+    font-size: 1em;
 }
 
 .teal {
@@ -73,6 +77,8 @@ nav.navbar .navbar-brand .logo {
 
 .teal h2 {
     font-size: 2em;
+    font-weight: 400;
+    letter-spacing: -1px;
 }
 
 footer {
