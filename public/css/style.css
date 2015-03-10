@@ -102,6 +102,11 @@ footer p {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    #main h2,
+    #additional-features h2 {
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 767px) {
