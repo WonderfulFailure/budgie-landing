@@ -1,5 +1,5 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 1.4em;
     font-weight: 300;
@@ -46,6 +46,10 @@ nav.navbar .navbar-brand .logo {
     width: 75%;
     display: block;
     float: right;
+}
+
+.preview-left {
+    float: left;
 }
 
 #mc_embed_signup {
@@ -102,6 +106,10 @@ footer p {
         width: 40%;
         display: block;
         margin: 0 auto;
+    }
+
+    .preview-left {
+        float: none;
     }
 
     .container {
