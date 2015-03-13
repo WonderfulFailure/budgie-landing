@@ -60,6 +60,7 @@ nav.navbar .navbar-brand .logo {
     position: absolute;
     left: 94px;
     top: 62px;
+    max-width: 206px;
 }
 
 #mc_embed_signup {
@@ -110,16 +111,30 @@ footer p {
     margin: 20px 0;
 }
 
+@media screen and (max-width: 1200px) {
+    .video-overlay video {
+        left: 76px;
+        top: 48px;
+        max-width: 162px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .preview {
         float: none;
-        width: 40%;
+        width: 288px;
         display: block;
         margin: 0 auto;
     }
 
     .preview-left {
         float: none;
+    }
+
+    .video-overlay video {
+        left: 235px;
+        top: 74px;
+        max-width: 252px;
     }
 
     .container {
@@ -140,7 +155,15 @@ footer p {
     }
 
     .preview {
-        width: 100%;
+        width: 250px;
+    }
+
+    .video-overlay video {
+        top: 65px;
+        max-width: 216px;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
     }
 
     #main {
