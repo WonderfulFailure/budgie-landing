@@ -52,6 +52,16 @@ nav.navbar .navbar-brand .logo {
     float: left;
 }
 
+.video-overlay {
+    position: relative;
+}
+
+.video-overlay video {
+    position: absolute;
+    left: 94px;
+    top: 62px;
+}
+
 #mc_embed_signup {
     margin: 40px 0;
 }
