@@ -63,6 +63,10 @@ nav.navbar .navbar-brand .logo {
     max-width: 206px;
 }
 
+.video-overlay.left video {
+    left: 15px;
+}
+
 #mc_embed_signup {
     margin: 40px 0;
 }
@@ -117,6 +121,10 @@ footer p {
         top: 48px;
         max-width: 162px;
     }
+
+    .video-overlay.left video {
+        left: 12px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -135,6 +143,10 @@ footer p {
         left: 235px;
         top: 74px;
         max-width: 252px;
+    }
+
+    .video-overlay.left video {
+        left: 235px;
     }
 
     .container {
@@ -164,6 +176,10 @@ footer p {
         margin: 0 auto;
         left: 0;
         right: 0;
+    }
+
+    .video-overlay.left video {
+        left: 0px;
     }
 
     #main {
