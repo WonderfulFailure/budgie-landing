@@ -2,7 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 1.4em;
-    font-weight: 300;
+    font-weight: 200;
+}
+
+form {
+    margin: 40px 0 25px 0;
 }
 
 .container {
@@ -22,30 +26,30 @@ nav.navbar .navbar-nav a {
     color: #fff;
 }
 
-nav.navbar .navbar-brand .logo {
-    width: 24px;
-    display: inline-block;
-    margin-right: 5px;
-    margin-top: -4px;
+nav.navbar .navbar-brand {
+    font-weight: 600;
 }
 
-.container h2 {
-    font-size: 3em;
+nav.navbar .navbar-toggle {
+    border: 0;
+}
+
+nav.navbar .navbar-toggle:hover,
+nav.navbar .navbar-toggle:focus {
+    background-color: #259dd9;
 }
 
 #header {
     background-color: #3ad3dd;
     color: #fff;
     text-align: center;
-    max-height: 675px;
+    max-height: 725px;
     overflow: hidden;
 }
 
-#main h2,
-#additional-features h2 {
-    margin-top: 0;
-    font-weight: 400;
-    letter-spacing: -1px;
+#header h2 {
+    font-size: 3em;
+    margin: 20px 0 0 0;
 }
 
 .preview {
@@ -70,7 +74,8 @@ nav.navbar .navbar-brand .logo {
 }
 
 .video-overlay.left video {
-    left: 15px;
+    left: 21px;
+    margin: 0;
 }
 
 .btn.btn-teal {
@@ -85,9 +90,20 @@ nav.navbar .navbar-brand .logo {
     border: 1px solid #eec60d;
 }
 
+#about {
+    padding: 40px 0;
+}
+
+#additional-features {
+    background-color: #259dd9;
+    color: #fff;
+    height: 465px;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
 footer {
     background-color: #3f3f3f;
-    margin-top: 60px;
 }
 
 footer a,
@@ -100,83 +116,42 @@ footer p {
     margin: 20px 0;
 }
 
-@media screen and (max-width: 1200px) {
-    .video-overlay video {
-        left: 76px;
-        top: 48px;
-        max-width: 162px;
-    }
-
-    .video-overlay.left video {
-        left: 12px;
-    }
-}
-
 @media screen and (max-width: 991px) {
-    .preview {
-        float: none;
-        width: 288px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .preview-left {
-        float: none;
-    }
-
-    .video-overlay video {
-        left: 235px;
-        top: 74px;
-        max-width: 252px;
-    }
-
-    .video-overlay.left video {
-        left: 235px;
-    }
 
     .container {
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    #main h2,
-    #additional-features h2 {
-        margin-top: 20px;
-    }
 }
 
 @media screen and (max-width: 767px) {
 
-    .container h2 {
-        font-size: 2em;
+    .navbar-inverse .navbar-collapse.collapse,
+    .navbar-inverse .navbar-collapse.collapsing {
+        border-top: 1px solid #259dd9;
+        background-color: #259dd9;
+    }
+
+    #header,
+    #additional-features {
+        height: 680px;
+    }
+
+    #header h2 {
+        font-size: 2.5em;
+    }
+
+    #about,
+    #additional-features {
+        padding: 20px 0;
+    }
+
+    #additional-features {
+        height: auto;
     }
 
     .preview {
         width: 250px;
-    }
-
-    .video-overlay video {
-        top: 65px;
-        max-width: 216px;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-    }
-
-    .video-overlay.left video {
-        left: 0px;
-    }
-
-    #main {
-        margin-top: 0;
-    }
-
-    footer {
-        margin-top: 20px;
-    }
-
-    .btn.btn-teal {
-        width: 100%;
-        margin-top: 10px;
     }
 }
