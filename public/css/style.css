@@ -147,11 +147,16 @@ footer p {
         padding: 20px 0;
     }
 
-    #additional-features {
-        height: auto;
+    #about h2,
+    #additional-features h2 {
+        margin: 5px 0;
     }
 
     .preview {
         width: 250px;
+    }
+
+    footer {
+        font-size: 0.9em;
     }
 }
