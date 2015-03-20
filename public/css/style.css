@@ -2,7 +2,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     line-height: 1.4em;
-    font-weight: 300;
+    font-weight: 200;
+}
+
+form {
+    margin: 40px 0 25px 0;
 }
 
 .container {
@@ -12,40 +16,44 @@ body {
 
 nav.navbar {
     border-radius: 0;
-    background-color: #3f3f3f;
-    border-color: #3f3f3f;
+    background-color: #3ad3dd;
+    border-color: #3ad3dd;
+    margin-bottom: 0;
 }
 
-nav.navbar .navbar-brand {
+nav.navbar .navbar-brand,
+nav.navbar .navbar-nav a {
     color: #fff;
 }
 
-nav.navbar .navbar-brand .logo {
-    width: 24px;
-    display: inline-block;
-    margin-right: 5px;
-    margin-top: -4px;
+nav.navbar .navbar-brand {
+    font-weight: 600;
 }
 
-.container h2 {
+nav.navbar .navbar-toggle {
+    border: 0;
+}
+
+nav.navbar .navbar-toggle:hover,
+nav.navbar .navbar-toggle:focus {
+    background-color: #259dd9;
+}
+
+#header {
+    background-color: #3ad3dd;
+    color: #fff;
+    text-align: center;
+    max-height: 725px;
+    overflow: hidden;
+}
+
+#header h2 {
     font-size: 3em;
-}
-
-#main {
-    margin-top: 60px;
-}
-
-#main h2,
-#additional-features h2 {
-    margin-top: 0;
-    font-weight: 400;
-    letter-spacing: -1px;
+    margin: 20px 0 0 0;
 }
 
 .preview {
-    width: 75%;
-    display: block;
-    float: right;
+    width: 338px;
 }
 
 .preview-left {
@@ -58,51 +66,48 @@ nav.navbar .navbar-brand .logo {
 
 .video-overlay video {
     position: absolute;
-    left: 94px;
-    top: 62px;
-    max-width: 206px;
+    top: 86px;
+    max-width: 296px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .video-overlay.left video {
-    left: 15px;
-}
-
-#mc_embed_signup {
-    margin: 40px 0;
-}
-
-#mc_embed_signup input[type="email"] {
-    height: 51px;
-    padding: 0 8px;
-    width: 100%;
+    left: 21px;
+    margin: 0;
 }
 
 .btn.btn-teal {
     color: #fff;
     background-color: #3ad3dd;
     border: 1px solid #3ad3dd;
-    display:inline-block;
-    width:100px;
-    height: 51px;
-    font-size: 1em;
 }
 
-.teal {
-    margin: 60px 0;
-    padding: 40px 0;
-    background-color: #3ad3dd;
+.btn.btn-gold {
     color: #fff;
+    background-color: #eec60d;
+    border: 1px solid #eec60d;
 }
 
-.teal h2 {
-    font-size: 2em;
-    font-weight: 400;
-    letter-spacing: -1px;
+#about {
+    padding: 40px 0;
+}
+
+#about h2 {
+    margin-top: 0;
+}
+
+#additional-features {
+    background-color: #259dd9;
+    color: #fff;
+    height: 465px;
+    overflow: hidden;
+    padding: 40px 0;
 }
 
 footer {
     background-color: #3f3f3f;
-    margin-top: 60px;
 }
 
 footer a,
@@ -115,83 +120,58 @@ footer p {
     margin: 20px 0;
 }
 
-@media screen and (max-width: 1200px) {
-    .video-overlay video {
-        left: 76px;
-        top: 48px;
-        max-width: 162px;
-    }
-
-    .video-overlay.left video {
-        left: 12px;
-    }
-}
-
 @media screen and (max-width: 991px) {
-    .preview {
-        float: none;
-        width: 288px;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .preview-left {
-        float: none;
-    }
-
-    .video-overlay video {
-        left: 235px;
-        top: 74px;
-        max-width: 252px;
-    }
-
-    .video-overlay.left video {
-        left: 235px;
-    }
 
     .container {
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    #main h2,
-    #additional-features h2 {
-        margin-top: 20px;
+    #header {
+        height: 590px;
     }
-}
 
-@media screen and (max-width: 767px) {
-
-    .container h2 {
-        font-size: 2em;
+    #additional-features {
+        height: 570px;
     }
 
     .preview {
         width: 250px;
     }
 
-    .video-overlay video {
-        top: 65px;
-        max-width: 216px;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .navbar-inverse .navbar-collapse.collapse,
+    .navbar-inverse .navbar-collapse.collapsing {
+        border-top: 1px solid #259dd9;
+        background-color: #259dd9;
     }
 
-    .video-overlay.left video {
-        left: 0px;
+    #header {
+        height: 680px;
     }
 
-    #main {
-        margin-top: 0;
+    #additional-features {
+        height: 660px;
+    }
+
+    #header h2 {
+        font-size: 2.5em;
+    }
+
+    #about,
+    #additional-features {
+        padding: 20px 0;
+    }
+
+    #about h2,
+    #additional-features h2 {
+        margin: 5px 0;
     }
 
     footer {
-        margin-top: 20px;
-    }
-
-    .btn.btn-teal {
-        width: 100%;
-        margin-top: 10px;
+        font-size: 0.9em;
     }
 }
