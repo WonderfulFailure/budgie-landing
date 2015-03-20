@@ -94,6 +94,10 @@ nav.navbar .navbar-toggle:focus {
     padding: 40px 0;
 }
 
+#about h2 {
+    margin-top: 0;
+}
+
 #additional-features {
     background-color: #259dd9;
     color: #fff;
@@ -123,6 +127,18 @@ footer p {
         padding-right: 15px;
     }
 
+    #header {
+        height: 590px;
+    }
+
+    #additional-features {
+        height: 570px;
+    }
+
+    .preview {
+        width: 250px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -133,9 +149,12 @@ footer p {
         background-color: #259dd9;
     }
 
-    #header,
-    #additional-features {
+    #header {
         height: 680px;
+    }
+
+    #additional-features {
+        height: 660px;
     }
 
     #header h2 {
@@ -150,10 +169,6 @@ footer p {
     #about h2,
     #additional-features h2 {
         margin: 5px 0;
-    }
-
-    .preview {
-        width: 250px;
     }
 
     footer {
