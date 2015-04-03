@@ -8,11 +8,11 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name : ['budgie-landing'],
+  app_name : ['Budgie Landing Page'],
   /**
    * Your New Relic license key.
    */
-  license_key : '038b99bc56b036f1165f624f9f1bdd118742956a',
+  license_key : '42c9041ba029fb02d37fc241b70f92de21ef9da0',
   logging : {
     /**
      * Level at which to log. 'trace' is most useful to New Relic when diagnosing
