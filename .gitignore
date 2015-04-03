@@ -1,9 +1,8 @@
-# Ignore Dota 2 assets
-images/dota2/*/*.png
-images/dota2/*/*.jpg
-images/dota2/*/*.jpeg
-images/dota2/*/*.gif
-
 # Ignore system files
 Thumbs.db
 .DS_Store
+
+*.log
+
+node_modules/
+bower_components/
