@@ -13,6 +13,10 @@ app.get('/', function(req, res){
   res.render('index.ejs');
 });
 
+app.get('/privacy', function(req, res){
+ res.render('privacy.ejs');
+});
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'));
 });
