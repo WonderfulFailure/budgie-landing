@@ -90,6 +90,12 @@ nav.navbar .navbar-toggle:focus {
     border: 1px solid #eec60d;
 }
 
+.btn.btn-green {
+    color: #fff;
+    background-color: #5AE138;
+    border: 1px solid #5AE138;
+}
+
 #about {
     padding: 40px 0;
 }
