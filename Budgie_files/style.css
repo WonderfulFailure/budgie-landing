@@ -60,6 +60,24 @@ nav.navbar .navbar-toggle:focus {
     float: left;
 }
 
+.store_links {
+    padding: 40px;
+}
+
+.store_links a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+
+.store_links a.coming-soon {
+    color: #666;
+}
+
+.store_links a.coming-soon img {
+    opacity: 0.6;
+}
+
 .video-overlay {
     position: relative;
 }
